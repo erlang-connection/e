@@ -1,0 +1,14 @@
+{application, e,
+ [{description, "Erlang Connection official module"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {e_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {licenses, ["ISC"]},
+  {links, []}
+ ]}.
